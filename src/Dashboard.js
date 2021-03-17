@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
-import { DatePicker, Space } from 'antd';
+import React from 'react';
+import { DatePicker} from 'antd';
 
 const { RangePicker } = DatePicker;
 export default function App() {
- const [value, setValue] = React.useState([null, null]);
 	
  return (
   <div>
